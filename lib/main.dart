@@ -89,7 +89,6 @@ class _MyHomePageState extends State<MyHomePage> {
     }
     final bytes = await File(image!.path).readAsBytes();
     String base64Image = base64Encode(bytes);
-    print('이미지 들어감');
     var uri = server_uri + '/generate';
     http.Response response = await http.post(
       Uri.parse(uri),
@@ -100,7 +99,6 @@ class _MyHomePageState extends State<MyHomePage> {
         'image': base64Image,
       }),
     );
-    print('image 나옴');
     if (response.statusCode == 200) {
       final Map<String, dynamic> data = json.decode(response.body);
       setState(() {
