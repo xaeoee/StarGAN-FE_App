@@ -24,3 +24,4 @@ flutter 환경 세팅은 다음 [영상](https://youtu.be/usE9IKaogDU?feature=sh
   ```
 
 ### 실행 영상
+https://github.com/seoin0110/StarGAN-FE_App/assets/79834222/0b754ee2-6b9f-4d69-8081-5de6920d4374
